@@ -6,7 +6,7 @@ http.createServer(
   		res.writeHead(200, {'Content-Type': 'text/html'});
 		res.write('<html><title>HELLO WORLD, COUNT to 100k</title>');
   		res.write('Hello World!!!!\n');
-		for (let i = 0; i <= 100000; i++) {
+		for (let i = 0; i <= 1000; i++) {
 			res.write(String(i) + ', ');
 		}
 		res.write('done</HTML>');
